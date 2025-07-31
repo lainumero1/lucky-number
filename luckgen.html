@@ -1,0 +1,38 @@
+<html>
+<head>
+    <link rel="stylesheet" href="luckgen.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <label>
+    <input type="checkbox" class="form-check-input" id="light-dark" value="value"> Dark Mode
+    </label>
+<h3>Lucky Number Generator</h3>
+    <p class="description">Generate random numbers base on provided info.</p>
+    <div class="selector">
+        <label for="minimum">Range starts at:
+            <span><input type="number" class="number-scroll" id="minimum"></span>
+        </label><br>
+        <label for="maximum">Range ends at:
+            <span><input type="number" class="number-scroll" id="maximum"></span>
+        </label><br>
+        <label>
+        <input type="checkbox" class="form-check-input" id="keep-history" value="value"> Keep History
+        </label>
+        <input type="submit" id="clear-history" class="btn btn-primary btn-sm" value="Clear History">
+        <br>
+        <label for="exclusion">Excluding (optional) (Please separate each number by comma):
+            <span><input type="text" class="number-input" id="exclusion"></span>
+        </label><br>
+        <label for="picks">How many numbers for your lottery?
+            <span><input type="number" class="number-scroll" id="picks"></span>
+            <span><input type="submit" id="confirm-button" class="btn btn-success btn-sm" value="Go!"></span>
+        </label><br>
+    </div>
+    <div class="result-container">
+        <p id="result"></p>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="luckgen.js"></script>
+</body>
+</html>

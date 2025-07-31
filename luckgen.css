@@ -1,0 +1,25 @@
+.number-scroll{
+    width: 50px;
+}
+
+#light-dark{
+    border: transparent;
+}
+
+body{
+    padding: 10px;
+}
+
+html{
+    width: 320px;
+    height: 140px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+.selector input{
+    border-radius: 0.375rem;
+    border: transparent;
+}

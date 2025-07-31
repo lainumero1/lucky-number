@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Lucky Lottery Generator",
+  "description": "Generate lucky numbers on Chrome",
+  "version": "0.4",
+  "action": {
+    "default_popup": "luckgen.html",
+    "default_icon": "128.png"
+  }
+}
